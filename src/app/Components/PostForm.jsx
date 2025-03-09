@@ -97,7 +97,7 @@ export default function PostCreation({ onSubmit, clear }) {
             border: "none",
             cursor: "pointer",
           }}
-          onClick={() => fileInputRef.current.click()} // Open file picker on click
+          onClick={() => fileInputRef.current.click()}
         >
           <Image style={{ color: "#60a5fa" }} />
         </button>
