@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Create .env.local in root directory
+Add bluesky credentials with below names
+  - BLUESKY_USERNAME
+  - BLUESKY_PASSWORD
+
+Now, run the development server:
 
 ```bash
 npm run dev
